@@ -1,28 +1,34 @@
-# Appdb
+# Apdb
 
 Red-black-tree-based data storage (for small program / light application / node / browser ), efficient and lightweight, support for persistence and temporary storage!
 
 ## Usage
 
+### Install
+
+```
+npm i apdb --save
+```
+
 ### 1. Import
 
 1. for nodejs
    ```
-   import Appdb from 'appdb/node';
+   import apdb from 'apdb/node';
    ```
 2. for wechat mini app
    ```
-   import Appdb from 'appdb/wechat';
+   import apdb from 'apdb/wechat';
    ```
 3. for web browser
    ```
-   import Appdb from 'appdb/web';
+   import apdb from 'apdb/web';
    ```
 
 ### 2. Initial
 
 ```
-const apdb = new Appdb( params );
+const apdb = new apdb( params );
 ```
 #### params [object]
 
@@ -49,7 +55,7 @@ if insert successful, result is `true`
 #### demo
 ```
 await apdb.insert({
-  key: 'appdb key', 
+  key: 'apdb key', 
   value: {
     name: 'apdb',
     author: 'echosoar'

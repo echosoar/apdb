@@ -1,5 +1,5 @@
 {
-  "name": "appdb",
+  "name": "apdb",
   "version": "1.0.0",
   "description": "Red-black-tree-based data storage (for small program / light application / node / browser ), efficient and lightweight, support for persistence and temporary storage!",
   "main": "node.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/echosoar/appdb.git"
+    "url": "git+https://github.com/echosoar/apdb.git"
   },
   "keywords": [
     "miniapp",
@@ -20,9 +20,9 @@
   "author": "echosoar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/echosoar/appdb/issues"
+    "url": "https://github.com/echosoar/apdb/issues"
   },
-  "homepage": "https://github.com/echosoar/appdb#readme",
+  "homepage": "https://github.com/echosoar/apdb#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
